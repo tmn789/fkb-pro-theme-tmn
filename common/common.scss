@@ -1,6 +1,18 @@
 @import "common/foundation/variables";
 @import "var-mixin";
 
+
+// custom css cua Nhat
+
+.highlighted {
+animation: none !important;
+} // tắt hiệu ứng chớp highlight
+
+.timeline-container{
+display:none;
+} // tắt timeline bên cạnh bài post
+
+
 // Need fix
 
 #main-outlet-wrapper .sidebar-wrapper {
