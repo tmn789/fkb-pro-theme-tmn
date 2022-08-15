@@ -3,6 +3,9 @@
 
 
 // custom css cua Nhat
+.list-control{
+margin-left: 40px;
+}
 
 .highlighted {
 animation: none !important;
@@ -557,6 +560,7 @@ img.avatar,
 
 .list-controls .combo-box .combo-box-header {
   background: var(--secondary);
+  
 }
 
 .nav-pills > li > a {
