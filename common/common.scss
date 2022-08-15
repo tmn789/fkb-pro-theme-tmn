@@ -744,7 +744,7 @@ body[class*="category-"]:not(.archetype-regular):not(.archetype-banner) {
         order: 0;
         margin-top: 0;
         margin-right: 0.5em;
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 800px) {
           bottom: 0.5em;
         }
         @media screen and (max-height: 410px) and (orientation: landscape) {
@@ -870,7 +870,7 @@ body[class*="category-"]:not(.archetype-regular):not(.archetype-banner) {
     order: 0;
     margin-bottom: 0;
     margin-top: 0;
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 800px) {
       bottom: 0.5em;
     }
     @media screen and (max-height: 410px) and (orientation: landscape) {
@@ -1381,7 +1381,7 @@ body[class*="category-"] {
     .mobile-view & {
       width: calc(100vw - 20px);
       @if $mobile-full-width == "true" {
-        @media screen and (max-width: 750px) {
+        @media screen and (max-width: 800px) {
           width: 100vw;
         }
       }
@@ -1688,7 +1688,7 @@ h2.username,
       }
       .staff-counters {
         margin-bottom: 10px;
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 800px) {
           margin-bottom: 1.25em;
         }
       }
@@ -2160,7 +2160,7 @@ button.save-fast-edit {
 
 #simple-container {
   background-color: transparent;
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     width: auto;
   }
   // Account page
