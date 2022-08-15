@@ -1381,7 +1381,7 @@ body[class*="category-"] {
     .mobile-view & {
       width: calc(100vw - 20px);
       @if $mobile-full-width == "true" {
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 750px) {
           width: 100vw;
         }
       }
