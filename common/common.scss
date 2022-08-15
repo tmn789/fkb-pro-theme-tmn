@@ -627,7 +627,7 @@ body[class*="category-"]:not(.archetype-regular):not(.archetype-banner) {
     @media (max-width: 1099px) {
       padding: 0;
       .full-width {
-        max-width: calc(100vw - 20px);
+        max-width: calc(120vw - 20px);
         width: 100%;
       }
     }
